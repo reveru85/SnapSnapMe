@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1OG-Oe-avg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1OG-Oe-avg">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -32,7 +32,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="f3m-zS-nbm">
             <objects>
-                <viewController id="1OG-Oe-avg" customClass="WelcomeViewController" customModule="SnapSnap" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1OG-Oe-avg" customClass="WelcomeViewController" customModule="SnapSnapMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FEk-nh-4sf"/>
                         <viewControllerLayoutGuide type="bottom" id="le8-bZ-4IM"/>
@@ -152,7 +152,7 @@
         <!--Image View Controller-->
         <scene sceneID="2yN-v8-Rrr">
             <objects>
-                <viewController id="LEE-Ku-89a" customClass="ImageViewController" customModule="SnapSnap" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LEE-Ku-89a" customClass="ImageViewController" customModule="SnapSnapMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HeV-WI-EQk"/>
                         <viewControllerLayoutGuide type="bottom" id="2nt-Le-AJt"/>
@@ -210,7 +210,7 @@
         <!--Menu View Controller-->
         <scene sceneID="HEl-Xa-rcL">
             <objects>
-                <tableViewController id="P6C-3y-iho" customClass="MenuViewController" customModule="SnapSnap" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="P6C-3y-iho" customClass="MenuViewController" customModule="SnapSnapMe" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5pZ-3h-ech">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="176"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -336,7 +336,7 @@
         <!--Web View Controller-->
         <scene sceneID="xPL-cX-eIN">
             <objects>
-                <viewController id="Tew-65-CYa" userLabel="Web View Controller" customClass="WebViewController" customModule="SnapSnap" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tew-65-CYa" userLabel="Web View Controller" customClass="WebViewController" customModule="SnapSnapMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YYJ-tf-CVL"/>
                         <viewControllerLayoutGuide type="bottom" id="YbQ-l0-riD"/>
@@ -373,7 +373,7 @@
         <!--Home View Controller-->
         <scene sceneID="usV-u9-ip4">
             <objects>
-                <viewController id="oVI-CD-Ibr" userLabel="Home View Controller" customClass="HomeViewController" customModule="SnapSnap" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oVI-CD-Ibr" userLabel="Home View Controller" customClass="HomeViewController" customModule="SnapSnapMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BZM-jb-3wz"/>
                         <viewControllerLayoutGuide type="bottom" id="6zi-z6-xQ6"/>
@@ -386,7 +386,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PostCell" rowHeight="805" id="ECH-yo-eYu" customClass="PostTableViewCell" customModule="SnapSnap" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PostCell" rowHeight="805" id="ECH-yo-eYu" customClass="PostTableViewCell" customModule="SnapSnapMe" customModuleProvider="target">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ECH-yo-eYu" id="AQn-3s-vG6">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -588,7 +588,7 @@
         <!--New Post View Controller-->
         <scene sceneID="6VN-Jj-Oll">
             <objects>
-                <viewController id="Q7A-z6-3Oh" userLabel="New Post View Controller" customClass="NewPostViewController" customModule="SnapSnap" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Q7A-z6-3Oh" userLabel="New Post View Controller" customClass="NewPostViewController" customModule="SnapSnapMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pMg-bl-aOd"/>
                         <viewControllerLayoutGuide type="bottom" id="Udg-lp-BQ6"/>
@@ -700,7 +700,7 @@
         <!--Comments-->
         <scene sceneID="4uc-dz-LM2">
             <objects>
-                <viewController id="zVK-OS-hDa" customClass="CommentsViewController" customModule="SnapSnap" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zVK-OS-hDa" customClass="CommentsViewController" customModule="SnapSnapMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GYe-Pr-EXZ"/>
                         <viewControllerLayoutGuide type="bottom" id="hvQ-LO-iJ6"/>
@@ -713,7 +713,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="486"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="200" id="Wf0-2H-OTf" customClass="CommentsTableViewCell" customModule="SnapSnap" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="200" id="Wf0-2H-OTf" customClass="CommentsTableViewCell" customModule="SnapSnapMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="82" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wf0-2H-OTf" id="RPE-vJ-PzY">

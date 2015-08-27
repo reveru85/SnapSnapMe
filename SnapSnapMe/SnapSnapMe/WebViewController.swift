@@ -12,8 +12,8 @@ class WebViewController: UIViewController {
     // Options> 1:about 2:help
     var option: Int32!
     var address: String!
-    let aboutAddress = "http://snapsnap.com.sg/webdev/aboutus.php"
-    let helpAddress = "http://snapsnap.com.sg/webdev/help.php"
+    let aboutAddress = "http://snapsnap.me/aboutus.php"
+    let helpAddress = "http://snapsnap.me/help.php"
     @IBOutlet weak var webView: UIWebView!
     
     override func viewDidLoad() {

@@ -4,7 +4,7 @@
 //
 //  Copyright (c) 2015 Genesys. All rights reserved.
 //
-// 0720backendapi15.snapsnap.com.sg (live environment, but not yet live)
+// 08backend2015.snapsnap.me (live environment, but not yet live)
 
 import UIKit
 import CryptoSwift

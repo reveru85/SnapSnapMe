@@ -39,7 +39,7 @@ class PostTableViewCell: UITableViewCell {
             if parentView is HomeViewController {
                 
                 // Like post API
-                var urlString = "http://0720backendapi15.snapsnap.com.sg/index.php/dphodto/action_like/" + PostId! + "/" + UserId!
+                var urlString = "http://08backend2015.snapsnap.me/index.php/dphodto/action_like/" + PostId! + "/" + UserId!
                 let url = NSURL(string: urlString)
                 var request = NSURLRequest(URL: url!)
                 let queue: NSOperationQueue = NSOperationQueue.mainQueue()
@@ -108,7 +108,7 @@ class PostTableViewCell: UITableViewCell {
                 if self.parentView is HomeViewController {
                     
                     let content : FBSDKShareLinkContent = FBSDKShareLinkContent()
-                    content.contentURL = NSURL(string: "http://www.snapsnap.com.sg/webdev/album")// + self.PostId)
+                    content.contentURL = NSURL(string: "http://www.snapsnap.me/webdev/album")// + self.PostId)
                     content.contentTitle = self.PostTitle.text
                     content.contentDescription = self.PostHashtags.text
                     content.imageURL = NSURL(string: (self.parentView as! HomeViewController).data.findEntry(self.PostId).media_url!)
@@ -127,7 +127,7 @@ class PostTableViewCell: UITableViewCell {
                 
                 if self.parentView is HomeViewController {
                     
-                    var urlString = "http://0720backendapi15.snapsnap.com.sg/index.php/dphodto/action_flag_as_inappropriate/" + self.PostId
+                    var urlString = "http://08backend2015.snapsnap.me/index.php/dphodto/action_flag_as_inappropriate/" + self.PostId
                     let url = NSURL(string: urlString)
                     var request = NSURLRequest(URL: url!)
                     let queue: NSOperationQueue = NSOperationQueue.mainQueue()
